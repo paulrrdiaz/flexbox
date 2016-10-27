@@ -1,0 +1,30 @@
+.menu {
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  float: left;
+  margin: 0 30px;
+  padding: 14px 20px;
+
+  i {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+  }
+
+  .menu-text {
+    display: inline-block;
+
+    h4,
+    p {
+      margin: 0;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
