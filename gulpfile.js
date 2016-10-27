@@ -9,7 +9,7 @@ var st = require('st');
 
 gulp.task('sass', function () {
   return gulp.src(['./src/stylesheets/*.scss'])
-    .pipe(sassLint({configFile: './config/.sass-lint.yml'}))
+    .pipe(sassLint())
     .pipe(sassLint.format())
     .pipe(sassLint.failOnError())
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
