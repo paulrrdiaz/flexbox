@@ -1,0 +1,29 @@
+.box {
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+
+  img {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+}
+
+.main-content,
+.sidebar {
+  margin: 10px;
+  background: #eee;
+  padding: 6px;
+}
+
+.container {
+  display: flex;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+}

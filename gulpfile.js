@@ -8,7 +8,7 @@ var http = require('http');
 var st = require('st');
 
 gulp.task('sass', function () {
-  return gulp.src(['./src/stylesheets/*.scss', './src/stylesheets/**/*.scss'])
+  return gulp.src(['./src/stylesheets/*.scss'])
     .pipe(sassLint())
     .pipe(sassLint.format())
     .pipe(sassLint.failOnError())
